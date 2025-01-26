@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Myprofile from './pages/MyProfile';
 import  Login  from './pages/Login'; // Named import
 import Appointment from './pages/Appointment';
+import Contact from './pages/Contact';
 
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/doctors' element={<Doctors />} />
         <Route path='/about' element={<About />} />
-        <Route path='/login' element={<Login />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path='/my-profile' element={<Myprofile />} />
         <Route path='/appointment/:docId' element={<Appointment />} />
        
