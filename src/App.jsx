@@ -8,6 +8,7 @@ import Myprofile from './pages/MyProfile';
 import  Login  from './pages/Login'; // Named import
 import Appointment from './pages/Appointment';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -26,7 +27,8 @@ const App = () => {
 
 
       </Routes>
-    
+
+    <Footer/>
     
       
     </div>
