@@ -6,7 +6,6 @@
 }
 
 .active hr{
-
   @apply block
 }
 
@@ -24,4 +23,11 @@
 
 ::-webkit-scrollbar{
   @apply hidden
+}
+
+@media (max-width:768px) {
+  .active p{
+    @apply text-white bg-[#4913dd]
+    /* bg-primary */
+  }
 }
